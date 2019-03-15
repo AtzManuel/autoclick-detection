@@ -1,0 +1,5 @@
+﻿  c_detection.cpp
+c:\users\utente\desktop\mousehook_detection\mousehook_detection\c_detection.cpp(27): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  mousehook_detection.cpp
+c:\users\utente\desktop\mousehook_detection\mousehook_detection\mousehook_detection.cpp(8): fatal error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+  Generating Code...
