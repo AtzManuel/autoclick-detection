@@ -7,7 +7,13 @@ LRESULT CALLBACK mouse_callback( int code, WPARAM param, LPARAM l_param ) {
 		switch ( param ) {
 		case WM_LBUTTONDOWN:
 			++found_count;
-			printf( "autoclicking.. found_count: %i \n", found_count );
+			printf( "Autoclicking with left button found. LVL: %i\n", found_count);
+			return -1;
+			break;
+		case WM_RBUTTONDOWN:
+			++found_count;
+			printf("Autoclicking with right button found. LVL: %i\n", found_count);
+			return -1;
 			break;
 		}
 	}
